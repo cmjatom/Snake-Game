@@ -1,0 +1,13 @@
+```scss
+.snake {
+  position: absolute;
+  background-color: green;
+  transition: all 0.1s linear;
+}
+
+.snake-part {
+  position: absolute;
+  background-color: green;
+  border-radius: 50%;
+}
+```

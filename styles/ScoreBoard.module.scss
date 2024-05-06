@@ -1,0 +1,27 @@
+.score-board {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    font-size: 1.2em;
+    color: #212529;
+}
+
+.score-board .title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.score-board .score {
+    font-size: 2em;
+    color: #28a745;
+}
+
+@media screen and (max-width: 600px) {
+    .score-board {
+        font-size: 1em;
+    }
+}

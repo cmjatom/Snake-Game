@@ -1,0 +1,32 @@
+```scss
+#game-board {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20px, 1fr));
+  grid-template-rows: repeat(auto-fill, minmax(20px, 1fr));
+  gap: 1px;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+@media screen and (min-width: 600px) {
+  #game-board {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  #game-board {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #game-board {
+    width: 40%;
+  }
+}
+```

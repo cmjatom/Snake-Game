@@ -1,0 +1,49 @@
+.leaderBoard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+    width: 300px;
+    max-width: 100%;
+}
+
+.leaderBoard h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.leaderBoard ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.leaderBoard li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.leaderBoard li:last-child {
+    border-bottom: none;
+}
+
+.leaderBoard .playerName {
+    font-size: 18px;
+    color: #333;
+}
+
+.leaderBoard .playerScore {
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+}
